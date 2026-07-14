@@ -1,4 +1,7 @@
 import pandas as pd
+from rich import print
+
+print("I am running this with uv")
 
 orders = pd.read_csv("data/snack_orders.csv")
 
